@@ -125,3 +125,20 @@ h2 {
 .title.github {
 	color: #444;
 }
+
+footer {
+	font-size: 80%;
+	margin-top: 15px;
+	text-align: center;
+	color: #888;
+}
+
+footer a {
+	color: #666;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
