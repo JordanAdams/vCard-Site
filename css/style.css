@@ -45,10 +45,8 @@ h1 {
 }
 
 h2 {
-	font-size: 110%;
-	font-weight: normal;
-	font-style: italic;
-	color: #666;
+	font: normal italic 100% georgia, sans-serif;
+	color: #888;
 	margin: 0px;
 }
 
@@ -74,16 +72,12 @@ h2 {
 	padding: 5px;
 }
 
-#social .icon {
-	-webkit-transition: all 0.1s ease-in;
-}
-
-/*#social article:hover {
-	border-color: #999;
-}*/
-
 #social article:hover .icon {
 	padding-left: 5px;
+}
+
+#social .icon {
+	-webkit-transition: all 0.2s;
 }
 
 #social article .icon {
@@ -141,4 +135,8 @@ footer a {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+footer a:visited {
+	color: #666;
 }
