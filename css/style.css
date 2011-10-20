@@ -45,7 +45,8 @@ h1 {
 }
 
 h2 {
-	font: normal italic 100% georgia, sans-serif;
+	font: italic 100% georgia, sans-serif;
+	font-weight: normal;
 	color: #888;
 	margin: 0px;
 }
@@ -78,6 +79,7 @@ h2 {
 
 #social .icon {
 	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
 }
 
 #social article .icon {
@@ -122,9 +124,11 @@ h2 {
 
 footer {
 	font-size: 80%;
-	margin-top: 15px;
+	margin: 15px 50px 0px 50px;
+	padding-top: 5px;
 	text-align: center;
 	color: #888;
+	border-top: dotted 1px #aaa;
 }
 
 footer a {
