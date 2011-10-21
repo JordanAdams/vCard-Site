@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'DeliciousHeavy';
+    src: url('../../fonts/delicious_heavy/delicious-heavy-webfont.eot');
+    src: url('../../fonts/delicious_heavy/delicious-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/delicious_heavy/delicious-heavy-webfont.woff') format('woff'),
+         url('../../fonts/delicious_heavy/delicious-heavy-webfont.ttf') format('truetype'),
+         url('../../fonts/delicious_heavy/delicious-heavy-webfont.svg#DeliciousHeavyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
 	background: #eee;
 }
@@ -5,11 +17,65 @@ html {
 body {
 	background: #fff;
 	border: solid 1px #aaa;
-	padding: 20px;
 	margin: 50px auto;
-	width: 120px;
+	width: 18.46cm;
 	font: 10pt arial;
-	text-align: center;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
+	padding: 1.5cm;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, .15), 0px 3px 20px 0px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, .15), 0px 3px 20px 0px rgba(0, 0, 0, .2);
+}
+
+#top_block {
+	/*border-bottom: solid 1px #888;*/
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+}
+
+h1 {
+	font-family: 'DeliciousHeavy', arial, sans-serif;
+	font-size: 20pt;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+#top_block p {
+	font-family: Georgia, Serif;
+	color: #555;
+	margin: 0px;
+	margin-bottom: 3px;
+}
+
+article {
+	margin-bottom: 30px;
+}
+
+article header {
+	font-size: 12pt;
+	font-weight: bold;
+	border-bottom: solid 1px #888;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+article p {
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+article p:last-of-type {
+	margin-bottom: 0px;
+}
+
+article dt {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+article dd {
+	margin-left: 10px;
+	margin-bottom: 15px;
+}
+
+article dd:last-of-type {
+	margin-bottom: 0px;
 }
