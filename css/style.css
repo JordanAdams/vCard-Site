@@ -19,7 +19,7 @@ body {
 }
 
 header {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 header #title {
@@ -53,7 +53,7 @@ h2 {
 }
 
 #social {
-	margin-bottom: -5px;
+	margin: -5px;
 }
 
 #social a:link,
@@ -65,8 +65,10 @@ h2 {
 }
 
 #social article {
-	border: dashed 1px #ccc;
-	width: 128px;
+        background: #fafafa;
+        border-radius: 3px;
+        border: solid 1px #eee;
+	width: 133px;
 	height: 32px;
 	float: left;
 	margin: 5px 5px;
@@ -125,23 +127,18 @@ h2 {
 
 footer {
 	font-size: 80%;
-	margin: 15px 50px 0px 50px;
-	padding-top: 5px;
+	padding-top: 10px;
 	text-align: center;
 	color: #888;
-	border-top: dotted 1px #aaa;
 }
 
 footer a {
 	color: #666;
 	text-decoration: none;
 	font-weight: bold;
+	color: #5774AD;
 }
 
 footer a:hover {
 	text-decoration: underline;
-}
-
-footer a:visited {
-	color: #666;
 }

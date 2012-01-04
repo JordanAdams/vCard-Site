@@ -1,11 +1,15 @@
 $(document).ready(function() {
 	
-	$.notifly({
-		header : 'Notice',
-		content : 'This website is currently under development and is best viewed in the latest verisions of Chrome, Safari, Firefox and Opera',
-		type : 'top',
-		delay : 9999999,
-		hoverPause : false
-	})
+	var card_height = $('#card').height();
+
+	$('#card').css({
+		'margin-top': 70,
+		'opacity': '0'
+	});
+
+	$('#card').delay(100).animate({
+		'margin-top': '50px',
+		'opacity': '1'
+	}, 600);
 
 });
