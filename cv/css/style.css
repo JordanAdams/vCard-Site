@@ -79,3 +79,20 @@ article dd {
 article dd:last-of-type {
 	margin-bottom: 0px;
 }
+
+#back_home {
+	color: #888;
+	text-decoration: none;
+	border: solid 1px #888;
+	border-radius: 10px;
+	padding: 3px 6px;
+	font-size: 80%;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+#back_home:hover {
+	color: #5774AD;
+	border-color: #5774AD;
+}
